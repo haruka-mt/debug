@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<%# header.ejsの読み込み%>
+  <%- include('header') -%>
+
+    <main>
+      <h1>Todo</h1>
+      <%# ToDo入力フォームを作成する%>
+        <form id='form'>
+          <p>
+            <label for='text'>内容</label>
+            <input id='text' type='text' name='text' />
+          </p>
+          <p>
+            <label for='limit'>期限</label>
+            <input id='limit' type='date' name='limit' />
+          </p>
+          <p>
+            <input type='submit' value='登録する' />
+          </p>
+        </form>
+        <%# ToDo一覧を表示する%>
+          <list class='list'></list>
+          <%# jQueryとtodo.jsを読み込む%>
+            <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+            <script src='javascripts/todo.js'></script>
+      </main>
+
+</html>

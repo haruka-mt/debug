@@ -1,0 +1,26 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+  background: rgb(255, 22, 81);
+  color: white;
+  margin: 0px;
+  padding: 20px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.header_right {
+  text-align: right;
+}
+
+main {
+  padding: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
