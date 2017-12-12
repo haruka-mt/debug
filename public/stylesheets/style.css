@@ -13,6 +13,10 @@ header {
   font-weight: bold;
 }
 
+.header_title {
+  color: white;
+  text-decoration: none;
+}
 .header_right {
   text-align: right;
 }
@@ -23,4 +27,20 @@ main {
 
 a {
   color: #00B7FF;
+}
+
+input {
+  font-size: 1.5em;
+}
+
+ul {
+  padding: 1.5em;
+}
+
+li {
+  font-size: 1em;
+  background: #c2c2c2;
+  margin-bottom: 10px;
+  padding: 0.5em;
+  list-style-type: none!important;
 }
